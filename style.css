@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
     
     }
 .container_logo {
@@ -17,6 +18,7 @@
 }
 
 .title {
+
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -33,38 +35,39 @@ h1{
     display: flex;
     justify-content: center;
     padding: 30px;
+    font-size: 35px;
 }
+
+
+
 .TEXTES {
 display: flex;
 justify-content: space-between;
-gap: 80px;
-padding: 5px 200px;
-margin-left: 200px;
-margin-right: 200px;
+gap: 30px;
+margin-left: 400px;
+margin-right: 400px;
+
 }
 h1 {
     color: rgba(0, 207, 162, 0.801);
 }
+
 .BOXS {
 display: flex;
-justify-content: center;
+justify-content: space-between;
+align-items: center;
+margin-top: 80px;
+margin-left: 400px;
+margin-right: 400px;
 gap: 30px;
-margin-top: 100px;
-padding: 30px;
-height: 300px;
-text-align: center;
-font-size: 20px;
-
-
 }
 .box1 {
     color: white;
     background-color: rgba(0, 207, 162, 0.801);
-    border-radius: 8%;
-    font-size: 20px;
-
-    
-    
+height: 300px;
+width: 250px;
+padding: 15px;
+border-radius: 8px;
 }
 .patients {
 width: 30px;
@@ -78,16 +81,38 @@ width: 30px;
 .box2 {
     color: white;
     background-color: rgb(0, 132, 255);
-    border-radius: 10%;
+height: 300px;
+width: 250px;
+padding: 15px;
+border-radius: 8px;
+
     
 }
 .box3 {
     color: white;
     background-color: rgba(4, 3, 26, 0.644);
-    border-radius: 10%;
+    height: 300px;
+width: 250px;
+padding: 15px;
+border-radius: 8px;
+}
+.pr1 {
+    color: rgba(0, 207, 162, 0.801);
+}
+.sc1 {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 50px;
     
 }
-.apple{
-    color: aqua;
-    font-size: x-large;
+.LOGO1 {
+    display: flex;
+    justify-content: space-between;
+}
+.LOGO2 {
+    display: flex;
+    justify-content: space-between;
 }
