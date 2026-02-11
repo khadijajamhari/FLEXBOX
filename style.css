@@ -68,11 +68,6 @@ height: 300px;
 width: 250px;
 padding: 15px;
 border-radius: 8px;
-
-}
-@media (max-width:)
-.patients {
-width: 30px;
 }
 .doctors {
     width: 30px;
@@ -153,7 +148,7 @@ border-radius: 8px;
 .part3 {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(154, 255, 221, 0.747);
+    background-color: rgba(0, 255, 221, 0.205);
 }
 .sc22 {
     display: flex;
@@ -162,36 +157,35 @@ border-radius: 8px;
 }
 .boxx1 {
     background-color: white;
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     margin: 30px;
     border-radius: 10px;
+
 }
 .boxx2 {
     background-color: white;
-    width: 200px;
-height: 200px;
+    width: 220px;
+height: 220px;
 margin: 30px;
  border-radius: 10px;
 }
 .boxx3 {
     background-color: white;
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     margin: 30px;
      border-radius: 10px;
 }
 .boxx4 {
     background-color: white;
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     margin: 30px;
      border-radius: 10px;
 }
 .part4 {
-    display: flex;
-    justify-content: center;
-    height: 150px;
+    height: 1000px;
 }
 .part3 {
     display: flex;
@@ -222,3 +216,42 @@ select {
 .H2 {
     margin-top: 20px;
 }
+.countries {
+  color: #00a892;
+}
+.countrie {
+    color: #00a892;
+    margin-top: 10px;
+}
+.appointments {
+color: #00a892;
+margin-top: 10px;
+}
+.patient {
+color: #00a892;
+margin-top: 10px;
+}
+.doctors {
+color: #00a892;
+margin-top: 10px;
+}
+.PARA {
+   margin-top: 20px; 
+   color: rgba(169, 169, 169, 0.932);
+}
+.www {
+    margin-top: 10px;
+}
+.improve, .change {
+    display: flex;
+    justify-content: center;
+color: #00a892;
+margin-top: 30px;
+}
+.PARAg {
+    color: rgba(169, 169, 169, 0.932);
+    margin:30px;
+display: flex;
+justify-content: center;
+}
+ 
